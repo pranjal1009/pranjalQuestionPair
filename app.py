@@ -28,6 +28,6 @@ if st.button('Find'):
     result = model.predict(query)[0]
 
     if result:
-        st.subheader('Questions are :rainbow[Duplicate]')
+        st.subheader('Questions are :violet[Duplicate]')
     else:
-        st.subheader('Questions are :rainbow[Not Duplicate]')
+        st.subheader('Questions are :violet[Not Duplicate]')
