@@ -6,7 +6,7 @@ from PIL import Image
 
 model = pickle.load(open('model.pkl','rb'))
 
-st.header('Hi! From MITAOE :) ')
+st.header('Hi! From MITAOE :smiley: ')
 st.header('Duplicate Question Pairs')
 
 image = Image.open('mitaoe-logo-2.png')
