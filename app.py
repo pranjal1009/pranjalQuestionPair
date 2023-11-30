@@ -10,6 +10,7 @@ st.header('Hi! From MITAOE :) ')
 st.header('Duplicate Question Pairs')
 
 image = Image.open('mitaoe-logo-2.png')
+image = image.resize((250,250))
 st.image(image)
 
 st.subheader('Group Members:')
